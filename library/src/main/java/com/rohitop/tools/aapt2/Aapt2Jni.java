@@ -4,7 +4,9 @@ import java.util.List;
 
 public class Aapt2Jni {
 	
+	// dummy
 	public static native void ping();
+	
 	public static native int compile(List<String> arguments, Aapt2JniDiagnostics diagnostics);
 	public static native int link(List<String> arguments, Aapt2JniDiagnostics diagnostics);
 	public static native int convert(List<String> arguments);
